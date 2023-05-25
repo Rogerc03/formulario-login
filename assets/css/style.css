@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(41, 41, 50);
+}
+body, p{
+    margin: 0;
+}
+.formulario {
+    height: auto;
+    width: 500px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(153, 153, 244);
+}
+
+.campo-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-button {
+    padding: 10px 0;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+}
